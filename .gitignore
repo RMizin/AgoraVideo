@@ -1,0 +1,17 @@
+build/*
+.DS_Store
+*.xcuserdatad
+
+#Facebook
+Bolts.framework/
+FBSDKCoreKit.framework/
+FBSDKLoginKit.framework/
+FBSDKShareKit.framework/
+
+*~.nib
+xcuserdata/
+
+Pods/
+*.lock
+
+*.generated.swift

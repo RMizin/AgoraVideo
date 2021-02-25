@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B19AF9525E8105E00881C29 /* KeyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B19AF9425E8105E00881C29 /* KeyCenter.swift */; };
 		4BE93AED25E54D7700E3D7AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE93AEC25E54D7700E3D7AB /* AppDelegate.swift */; };
 		4BE93AEF25E54D7700E3D7AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE93AEE25E54D7700E3D7AB /* SceneDelegate.swift */; };
-		4BE93AF125E54D7700E3D7AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE93AF025E54D7700E3D7AB /* ViewController.swift */; };
-		4BE93AF425E54D7700E3D7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE93AF225E54D7700E3D7AB /* Main.storyboard */; };
 		4BE93AF625E54D7800E3D7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE93AF525E54D7800E3D7AB /* Assets.xcassets */; };
 		4BE93AF925E54D7800E3D7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE93AF725E54D7800E3D7AB /* LaunchScreen.storyboard */; };
+		4BE93B0925E555ED00E3D7AB /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE93B0725E555ED00E3D7AB /* JoinViewController.swift */; };
+		4BE93B0A25E555ED00E3D7AB /* JoinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE93B0825E555ED00E3D7AB /* JoinViewController.xib */; };
+		4BE93B3225E55B2300E3D7AB /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE93B3025E55B2300E3D7AB /* CallViewController.swift */; };
+		4BE93B3325E55B2300E3D7AB /* CallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE93B3125E55B2300E3D7AB /* CallViewController.xib */; };
+		4BE93B3825E55DC700E3D7AB /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE93B3725E55DC700E3D7AB /* VideoView.swift */; };
+		4BE93B3C25E55DD400E3D7AB /* VideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE93B3B25E55DD400E3D7AB /* VideoView.xib */; };
+		F69295CB7A83B982C0AE6FEA /* Pods_VideoCallAgora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007107E142DF4FF021F09536 /* Pods_VideoCallAgora.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		007107E142DF4FF021F09536 /* Pods_VideoCallAgora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoCallAgora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B19AF9425E8105E00881C29 /* KeyCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCenter.swift; sourceTree = "<group>"; };
 		4BE93AE925E54D7700E3D7AB /* VideoCallAgora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCallAgora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE93AEC25E54D7700E3D7AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BE93AEE25E54D7700E3D7AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4BE93AF025E54D7700E3D7AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4BE93AF325E54D7700E3D7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BE93AF525E54D7800E3D7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BE93AF825E54D7800E3D7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BE93AFA25E54D7800E3D7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BE93B0725E555ED00E3D7AB /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		4BE93B0825E555ED00E3D7AB /* JoinViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JoinViewController.xib; sourceTree = "<group>"; };
+		4BE93B3025E55B2300E3D7AB /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
+		4BE93B3125E55B2300E3D7AB /* CallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallViewController.xib; sourceTree = "<group>"; };
+		4BE93B3725E55DC700E3D7AB /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		4BE93B3B25E55DD400E3D7AB /* VideoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoView.xib; sourceTree = "<group>"; };
+		77B4BCC65DF258B8BFFD804D /* Pods-VideoCallAgora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoCallAgora.debug.xcconfig"; path = "Target Support Files/Pods-VideoCallAgora/Pods-VideoCallAgora.debug.xcconfig"; sourceTree = "<group>"; };
+		873977361D320074A3E51258 /* Pods-VideoCallAgora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoCallAgora.release.xcconfig"; path = "Target Support Files/Pods-VideoCallAgora/Pods-VideoCallAgora.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69295CB7A83B982C0AE6FEA /* Pods_VideoCallAgora.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B19AF7825E80F1000881C29 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4BE93AEC25E54D7700E3D7AB /* AppDelegate.swift */,
+				4BE93AEE25E54D7700E3D7AB /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4B19AF7A25E80F1E00881C29 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				4BE93AFA25E54D7800E3D7AB /* Info.plist */,
+				4BE93AF525E54D7800E3D7AB /* Assets.xcassets */,
+				4BE93AF725E54D7800E3D7AB /* LaunchScreen.storyboard */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		4B19AF7B25E80F3400881C29 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4B19AF9425E8105E00881C29 /* KeyCenter.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4B19AF9225E8104D00881C29 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4BE93B0C25E555F100E3D7AB /* JoinCall */,
+				4BE93B2F25E55B0C00E3D7AB /* Call */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		4BE93AE025E54D7700E3D7AB = {
 			isa = PBXGroup;
 			children = (
 				4BE93AEB25E54D7700E3D7AB /* VideoCallAgora */,
 				4BE93AEA25E54D7700E3D7AB /* Products */,
+				9F397198B5BF977B7396C3AF /* Pods */,
+				F930BC619D25F2F3DF2BB7A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +109,57 @@
 		4BE93AEB25E54D7700E3D7AB /* VideoCallAgora */ = {
 			isa = PBXGroup;
 			children = (
-				4BE93AEC25E54D7700E3D7AB /* AppDelegate.swift */,
-				4BE93AEE25E54D7700E3D7AB /* SceneDelegate.swift */,
-				4BE93AF025E54D7700E3D7AB /* ViewController.swift */,
-				4BE93AF225E54D7700E3D7AB /* Main.storyboard */,
-				4BE93AF525E54D7800E3D7AB /* Assets.xcassets */,
-				4BE93AF725E54D7800E3D7AB /* LaunchScreen.storyboard */,
-				4BE93AFA25E54D7800E3D7AB /* Info.plist */,
+				4B19AF7825E80F1000881C29 /* AppDelegate */,
+				4B19AF9225E8104D00881C29 /* Modules */,
+				4BE93B3625E55DAF00E3D7AB /* UIComponents */,
+				4B19AF7B25E80F3400881C29 /* Common */,
+				4B19AF7A25E80F1E00881C29 /* Resourses */,
 			);
 			path = VideoCallAgora;
+			sourceTree = "<group>";
+		};
+		4BE93B0C25E555F100E3D7AB /* JoinCall */ = {
+			isa = PBXGroup;
+			children = (
+				4BE93B0725E555ED00E3D7AB /* JoinViewController.swift */,
+				4BE93B0825E555ED00E3D7AB /* JoinViewController.xib */,
+			);
+			path = JoinCall;
+			sourceTree = "<group>";
+		};
+		4BE93B2F25E55B0C00E3D7AB /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				4BE93B3025E55B2300E3D7AB /* CallViewController.swift */,
+				4BE93B3125E55B2300E3D7AB /* CallViewController.xib */,
+			);
+			path = Call;
+			sourceTree = "<group>";
+		};
+		4BE93B3625E55DAF00E3D7AB /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				4BE93B3725E55DC700E3D7AB /* VideoView.swift */,
+				4BE93B3B25E55DD400E3D7AB /* VideoView.xib */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		9F397198B5BF977B7396C3AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77B4BCC65DF258B8BFFD804D /* Pods-VideoCallAgora.debug.xcconfig */,
+				873977361D320074A3E51258 /* Pods-VideoCallAgora.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F930BC619D25F2F3DF2BB7A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				007107E142DF4FF021F09536 /* Pods_VideoCallAgora.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BE93AFD25E54D7800E3D7AB /* Build configuration list for PBXNativeTarget "VideoCallAgora" */;
 			buildPhases = (
+				4C88DA6ECF6A80EA8E85DD18 /* [CP] Check Pods Manifest.lock */,
 				4BE93AE525E54D7700E3D7AB /* Sources */,
 				4BE93AE625E54D7700E3D7AB /* Frameworks */,
 				4BE93AE725E54D7700E3D7AB /* Resources */,
+				83119A525112089B85602153 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +223,66 @@
 			files = (
 				4BE93AF925E54D7800E3D7AB /* LaunchScreen.storyboard in Resources */,
 				4BE93AF625E54D7800E3D7AB /* Assets.xcassets in Resources */,
-				4BE93AF425E54D7700E3D7AB /* Main.storyboard in Resources */,
+				4BE93B3325E55B2300E3D7AB /* CallViewController.xib in Resources */,
+				4BE93B3C25E55DD400E3D7AB /* VideoView.xib in Resources */,
+				4BE93B0A25E555ED00E3D7AB /* JoinViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C88DA6ECF6A80EA8E85DD18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoCallAgora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83119A525112089B85602153 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoCallAgora/Pods-VideoCallAgora-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoCallAgora/Pods-VideoCallAgora-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoCallAgora/Pods-VideoCallAgora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4BE93AE525E54D7700E3D7AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BE93AF125E54D7700E3D7AB /* ViewController.swift in Sources */,
 				4BE93AED25E54D7700E3D7AB /* AppDelegate.swift in Sources */,
+				4BE93B3825E55DC700E3D7AB /* VideoView.swift in Sources */,
+				4BE93B0925E555ED00E3D7AB /* JoinViewController.swift in Sources */,
+				4BE93B3225E55B2300E3D7AB /* CallViewController.swift in Sources */,
+				4B19AF9525E8105E00881C29 /* KeyCenter.swift in Sources */,
 				4BE93AEF25E54D7700E3D7AB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +290,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4BE93AF225E54D7700E3D7AB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BE93AF325E54D7700E3D7AB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4BE93AF725E54D7800E3D7AB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +352,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				INFOPLIST_FILE = VideoVallAgora/Resourses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +408,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				INFOPLIST_FILE = VideoVallAgora/Resourses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,12 +421,14 @@
 		};
 		4BE93AFE25E54D7800E3D7AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B4BCC65DF258B8BFFD804D /* Pods-VideoCallAgora.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3WPJ33XN8;
-				INFOPLIST_FILE = VideoCallAgora/Info.plist;
+				INFOPLIST_FILE = VideoCallAgora/Resourses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +442,14 @@
 		};
 		4BE93AFF25E54D7800E3D7AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 873977361D320074A3E51258 /* Pods-VideoCallAgora.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3WPJ33XN8;
-				INFOPLIST_FILE = VideoCallAgora/Info.plist;
+				INFOPLIST_FILE = VideoCallAgora/Resourses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
